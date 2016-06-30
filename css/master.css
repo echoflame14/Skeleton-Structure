@@ -584,93 +584,103 @@ textarea {
   margin: 0;
   padding: 0; }
 
-body .top {
-  background: url(../img/wot-masthead-dark.jpg) center center no-repeat;
-  background-size: cover;
-  height: 70vh; }
-  body .top nav {
-    width: 80%;
-    margin: 0 auto;
-    padding-top: 3vh;
-    position: relative; }
-    body .top nav img {
-      height: 4vh; }
-    body .top nav ul {
-      position: absolute;
-      top: 50%;
-      right: 0; }
-      body .top nav ul li {
-        color: white;
-        padding: 0 1vw;
-        float: right;
-        display: inline-block; }
-  body .top section.txt {
-    width: 80vw;
-    margin: 0 auto;
-    margin-top: 16vh;
-    text-align: center; }
-    body .top section.txt .button {
-      padding: .3rem;
-      border: 1px #BDD537 solid;
-      border-radius: 5rem;
-      width: 20vw;
-      margin: 0 auto; }
-      body .top section.txt .button h1 {
-        color: #BDD537;
-        font-size: 1em; }
-    body .top section.txt h1 {
-      color: white;
-      font-size: 3.5em; }
-body section.info {
-  width: 50vw;
-  margin: 0 auto;
-  text-align: center;
-  height: 30vh;
-  margin-top: 15vh; }
-  body section.info h1 {
-    font-size: 1.5rem;
-    color: #6A787C;
-    line-height: 2.4rem; }
-  body section.info .box {
-    width: 15vw;
-    height: 1vh;
-    background-color: #BDD537;
-    margin: 0 auto; }
-body section.threeBox {
-  background-color: #F0F0F0;
-  height: 60vh;
-  width: 100vw; }
-  body section.threeBox .container {
-    width: 80%;
-    margin: 0 auto;
-    height: 50vh;
-    display: flex; }
-    body section.threeBox .container .box {
-      background: white;
-      height: 100%;
-      width: 30%;
-      margin: 5vh 1.6%; }
-      body section.threeBox .container .box h1 {
-        text-align: center;
-        color: #6A787C; }
-      body section.threeBox .container .box .bar {
-        height: 1vh;
-        width: 20%;
+body {
+  background-color: #F0F0F0; }
+  body .top {
+    background: url(../img/wot-masthead-dark.jpg) center center no-repeat;
+    background-size: cover;
+    height: 70vh; }
+    body .top nav {
+      width: 80%;
+      margin: 0 auto;
+      padding-top: 3vh;
+      position: relative; }
+      body .top nav img {
+        height: 4vh; }
+      body .top nav ul {
+        position: absolute;
+        top: 50%;
+        right: 0; }
+        body .top nav ul li {
+          color: white;
+          padding: 0 1vw;
+          float: right;
+          display: inline-block; }
+        body .top nav ul li:hover {
+          border-bottom: 0.3rem solid #BDD537;
+          padding-bottom: .5rem; }
+    body .top section.txt {
+      width: 80vw;
+      margin: 0 auto;
+      margin-top: 16vh;
+      text-align: center; }
+      body .top section.txt .button:hover {
         background-color: #BDD537;
+        border: solid gray 1px; }
+        body .top section.txt .button:hover h1 {
+          color: black; }
+      body .top section.txt .button {
+        padding: .3rem;
+        border: 1px #BDD537 solid;
+        border-radius: 5rem;
+        width: 20vw;
         margin: 0 auto; }
-      body section.threeBox .container .box p {
-        margin: 0 auto;
-        margin-top: 4vh;
-        width: 80%;
-        text-align: center;
-        line-height: 2rem;
-        font-size: 1.3rem;
-        color: #97A2A7; }
-      body section.threeBox .container .box a {
-        text-decoration: none; }
-        body section.threeBox .container .box a p.more {
+        body .top section.txt .button h1 {
           color: #BDD537;
-          font-size: 1.15rem; }
+          font-size: 1em; }
+      body .top section.txt h1 {
+        color: white;
+        font-size: 3.5em; }
+  body section.info {
+    width: 50vw;
+    margin: 0 auto;
+    text-align: center;
+    height: 30vh;
+    margin-top: 15vh; }
+    body section.info h1 {
+      font-size: 1.5rem;
+      color: #6A787C;
+      line-height: 2.4rem; }
+    body section.info .box {
+      width: 15vw;
+      height: 1vh;
+      background-color: #BDD537;
+      margin: 0 auto; }
+  body section.threeBox {
+    background-color: #F0F0F0;
+    height: 60vh;
+    width: 100vw; }
+    body section.threeBox .container {
+      width: 80%;
+      margin: 0 auto;
+      height: 50vh;
+      display: flex; }
+      body section.threeBox .container .box {
+        background: white;
+        height: 100%;
+        width: 30%;
+        margin: 5vh 1.6%; }
+        body section.threeBox .container .box h1 {
+          text-align: center;
+          color: #6A787C; }
+        body section.threeBox .container .box .bar {
+          height: 1vh;
+          width: 20%;
+          background-color: #BDD537;
+          margin: 0 auto; }
+        body section.threeBox .container .box p {
+          margin: 0 auto;
+          margin-top: 4vh;
+          width: 80%;
+          text-align: center;
+          line-height: 2rem;
+          font-size: 1.3rem;
+          color: #97A2A7; }
+        body section.threeBox .container .box a {
+          text-decoration: none; }
+          body section.threeBox .container .box a p.more {
+            color: #BDD537;
+            font-size: 1.15rem; }
 
 section.shirtPic {
   height: 100vh;
@@ -681,7 +691,7 @@ section.shirtPic {
 section.help {
   display: flex;
   height: 60vh;
-  background-color: gallery; }
+  background-color: white; }
   section.help .left {
     color: #6A787C;
     width: 45%; }
@@ -697,6 +707,8 @@ section.help {
     color: #97A2A7;
     width: 55%;
     display: flex; }
+    section.help .right a:hover {
+      color: #BDD537; }
     section.help .right a {
       text-decoration: none;
       color: #97A2A7;
@@ -712,5 +724,97 @@ section.help {
     section.help .right .right2 {
       margin-top: 6rem;
       width: 45%; }
+
+.work {
+  height: 60vh;
+  width: 100vw;
+  background-color: #F0F0F0; }
+  .work h1 {
+    padding-top: 15vh;
+    text-align: center; }
+  .work .bar {
+    height: 1vh;
+    width: 20%;
+    background-color: #BDD537;
+    margin: 0 auto;
+    margin-bottom: 5rem; }
+  .work .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex; }
+    .work .container .img {
+      width: 20%;
+      height: 10vh;
+      margin: 0 2.5% 3rem 2.5%;
+      background-size: cover; }
+    .work .container .necma {
+      background-image: url(../img/ncma-logo.svg); }
+    .work .container .matt {
+      background-image: url(../img/americasmattress-logo.svg); }
+    .work .container .serona {
+      background-image: url(../img/sirona-logo.svg); }
+    .work .container .redgiant {
+      background-image: url(../img/redgiant-logo.svg); }
+    .work .container .toolfarm {
+      background-image: url(../img/toolfarm-logo.svg); }
+    .work .container .imag {
+      background-image: url(../img/imagineer-logo.svg); }
+    .work .container .ci {
+      background-image: url(../img/ci-logo.svg); }
+
+section.talk {
+  margin-top: 10vh;
+  height: 45vh;
+  width: 100vw;
+  background-color: #6A787C; }
+  section.talk h1 {
+    margin: 0 auto;
+    padding-top: 10vh;
+    padding-bottom: 2vh;
+    text-align: center;
+    color: white; }
+  section.talk .bar {
+    height: 1vh;
+    width: 20%;
+    background-color: #BDD537;
+    margin: 0 auto;
+    margin-bottom: 1.7rem; }
+  section.talk p {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    line-height: 1.7rem; }
+  section.talk .button {
+    margin: 0 auto;
+    margin-top: 3vh;
+    width: 10vw;
+    height: 5vh;
+    background-color: #BDD537;
+    border-radius: 100vw; }
+    section.talk .button p {
+      text-align: center;
+      line-height: 5vh; }
+
+footer {
+  height: 10vh;
+  width: 100vw;
+  display: flex; }
+  footer p {
+    line-height: 10vh;
+    margin-left: 20vw; }
+  footer ul {
+    width: 50vw;
+    margin: 0 5vw 0 5vw; }
+    footer ul li:hover {
+      color: #BDD537; }
+    footer ul li {
+      padding: 0 1.4vw;
+      display: inline;
+      line-height: 10vh; }
+
+.green {
+  color: #BDD537; }
 
 /*# sourceMappingURL=master.css.map */
