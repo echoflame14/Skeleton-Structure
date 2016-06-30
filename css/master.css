@@ -576,32 +576,100 @@ textarea {
 
   .col-lg-16 {
     width: 100%; } }
+.clearfix {
+  clear: both; }
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0; }
 
-body {
-  width: 100vw;
-  background: gray;
-  height: 100vh; }
-  body header {
-    width: 100%;
-    height: 100vh; }
-    body header nav {
-      width: 100%;
-      height: 100vh; }
-      body header nav .link {
-        height: 100px;
-        display: block;
-        float: left; }
-      body header nav .link:nth-child(1) {
-        background: red; }
-      body header nav .link:nth-child(2) {
-        background: blue; }
-      body header nav .link:nth-child(3) {
-        background: yellow; }
-      body header nav .link:nth-child(4) {
-        background: coral; }
+body .top {
+  background: url(../img/wot-masthead-dark.jpg) center center no-repeat;
+  background-size: cover;
+  height: 70vh; }
+  body .top nav {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 3vh;
+    position: relative; }
+    body .top nav img {
+      height: 4vh; }
+    body .top nav ul {
+      position: absolute;
+      top: 50%;
+      right: 0; }
+      body .top nav ul li {
+        color: white;
+        padding: 0 1vw;
+        float: right;
+        display: inline-block; }
+  body .top section.txt {
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 16vh;
+    text-align: center; }
+    body .top section.txt .button {
+      padding: .3rem;
+      border: 1px #BDD537 solid;
+      border-radius: 5rem;
+      width: 20vw;
+      margin: 0 auto; }
+      body .top section.txt .button h1 {
+        color: #BDD537;
+        font-size: 1em; }
+    body .top section.txt h1 {
+      color: white;
+      font-size: 3.5em; }
+body section.info {
+  width: 50vw;
+  margin: 0 auto;
+  text-align: center;
+  height: 30vh;
+  margin-top: 15vh; }
+  body section.info h1 {
+    font-size: 1.5rem;
+    color: #6A787C;
+    line-height: 2.4rem; }
+  body section.info .box {
+    width: 15vw;
+    height: 1vh;
+    background-color: #BDD537;
+    margin: 0 auto; }
+body section.threeBox {
+  background-color: #F0F0F0;
+  height: 60vh;
+  width: 100vw; }
+  body section.threeBox .container {
+    width: 80%;
+    margin: 0 auto;
+    height: 50vh;
+    display: flex; }
+    body section.threeBox .container .box {
+      background: white;
+      height: 100%;
+      width: 30%;
+      margin: 5vh 1.6%; }
+      body section.threeBox .container .box h1 {
+        text-align: center;
+        color: #6A787C; }
+      body section.threeBox .container .box .bar {
+        height: 1vh;
+        width: 20%;
+        background-color: #BDD537;
+        margin: 0 auto; }
+      body section.threeBox .container .box p {
+        margin: 0 auto;
+        margin-top: 4vh;
+        width: 80%;
+        text-align: center;
+        line-height: 2rem;
+        font-size: 1.3rem;
+        color: #97A2A7; }
+      body section.threeBox .container .box a {
+        text-decoration: none; }
+        body section.threeBox .container .box a p.more {
+          color: #BDD537;
+          font-size: 1.15rem; }
 
 /*# sourceMappingURL=master.css.map */
