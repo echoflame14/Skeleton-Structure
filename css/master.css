@@ -672,4 +672,45 @@ body section.threeBox {
           color: #BDD537;
           font-size: 1.15rem; }
 
+section.shirtPic {
+  height: 100vh;
+  width: 100vw;
+  background: url(../img/wot-office-shirts.jpg) no-repeat center center;
+  background-size: cover; }
+
+section.help {
+  display: flex;
+  height: 60vh;
+  background-color: gallery; }
+  section.help .left {
+    color: #6A787C;
+    width: 45%; }
+    section.help .left h1 {
+      text-align: center;
+      margin-top: 6rem; }
+    section.help .left .bar {
+      height: 1vh;
+      width: 20%;
+      background-color: #BDD537;
+      margin: 0 auto; }
+  section.help .right {
+    color: #97A2A7;
+    width: 55%;
+    display: flex; }
+    section.help .right a {
+      text-decoration: none;
+      color: #97A2A7;
+      font-size: .6rem; }
+    section.help .right h1 {
+      margin: 0;
+      margin-bottom: 2rem; }
+    section.help .right .left2 {
+      width: 45%;
+      margin-top: 6rem; }
+    section.help .right .mid {
+      width: 10%; }
+    section.help .right .right2 {
+      margin-top: 6rem;
+      width: 45%; }
+
 /*# sourceMappingURL=master.css.map */
